@@ -23,6 +23,7 @@ def process_code(chars)
   end
   print "#{@current_word} "
 end
+
 def morse_decoder(string)
   @words = string.split('  ')
   @words.each do |word|
