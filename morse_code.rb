@@ -14,3 +14,23 @@ def converted_code(letter)
   @current_letter
 end
 
+def process_code(chars)
+  @letters = chars.split
+  @current_word = ''
+  @letters.each do |letter|
+    converted_code(letter)
+    @current_word += converted_code(letter)
+  end
+  print "#{@current_word} "
+end
+def morse_decoder(string)
+  @words = string.split('  ')
+  @words.each do |word|
+    process_code(word)
+  end
+end
+# morse_decoder('-- -.--   -. .- -- .')
+# Author 1: Gordon
+morse_decoder('--. --- .-. -.. --- -.')
+# Author 2: Betsegaw
+morse_decoder('-... . - ... . --. .- .--')
