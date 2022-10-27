@@ -21,14 +21,16 @@ def process_code(chars)
     converted_code(letter)
     @current_word += converted_code(letter)
   end
-  print "#{@current_word} "
+  @current_word.to_s
 end
 
 def morse_decoder(string)
   @words = string.split('  ')
+  @msg_arr = []
   @words.each do |word|
-    process_code(word)
+    @msg_arr << process_code(word)
   end
+  @msg_arr.join(' ')
 end
 # morse_decoder('-- -.--   -. .- -- .')
 # Author 1: Gordon
