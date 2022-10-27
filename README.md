@@ -1,62 +1,67 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Decode morse code
 
-> Description the project.
+This project will make use of the Ruby language syntax to decode a message in morse code.
 
+Welcome!
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- Terminal
+- IRB
+- Rubocop (linters)
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## Install
 
-### Setup
+In your terminal, navigate to your current directory and run this code
 
-### Install
+`https://github.com/GordonOtieno/decode-Morse-code.git`
 
-### Usage
+Locate the directory in your file explorer
 
-### Run tests
+`cd decode-Morse-code`
 
-### Deployment
+Install Rubocop
 
+`bundle install`
 
+## Run Linters:
+
+### To run rubocop we use:
+`rubocop`
+
+### To autocorrect offenses with rubocop we use:
+`rubocop --auto-correct-all` or
+`rubocop -A`
+
+Have fun with morse code translation!
 
 ## Authors
 
-👤 **Author1**
+👤 **Gordon Otieno**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Gordon_Otieno ](https://github.com/GordonOtieno)
+- Twitter: [@GordonOtieno](https://twitter.com/gordonotieno)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gordonotieno/)
 
-👤 **Author2**
+👤 **Betsegaw Sebsibe**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [@BetsegawSebsibe ](https://github.com/betses)
+- Twitter: [@BetsegawSebsibe](https://twitter.com/Betse_s)
+- LinkedIn: [GordonOtieno](https://www.linkedin.com/in/betsegaw-sebsibe/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/GordonOtieno/decode-Morse-code/issues).
 
 ## Show your support
 
@@ -70,6 +75,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
